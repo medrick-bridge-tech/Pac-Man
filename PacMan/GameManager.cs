@@ -2,12 +2,11 @@
 {
     public class GameManager
     {
-
         private Enemies[] enemies;
-
-        void StartGame()
+        private Player player;
+        public void StartGame()
         {
-            
+            player.EatingDots();       
         }
         
         void EndGame()
@@ -34,6 +33,5 @@
         {
             
         }
-        
     }
 }

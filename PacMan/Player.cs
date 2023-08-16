@@ -1,4 +1,7 @@
-﻿namespace PacMan
+﻿using System;
+using System.Diagnostics;
+
+namespace PacMan
 {
     public class Player : ICharacter
     {
@@ -12,9 +15,9 @@
             
         }
 
-        void EatingDots()
+        public void EatingDots()
         {
-            
+            Console.WriteLine("Dot eaten");
         }
     }
 }
